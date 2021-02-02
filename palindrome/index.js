@@ -15,4 +15,4 @@ function palindrome(str) {
 
 module.exports = palindrome;
 
-//export default doesn't work here ??
+//export default doesn't work here ?? or at least maked the test fail

@@ -8,9 +8,11 @@
 //   palindrome("abcdefg") === false
 
 function palindrome(str) {
-    const reversed = str.split('').reverse().join('')   
-    
-    return str === reversed
+  const reversed = str.split("").reverse().join("");
+
+  return str === reversed;
 }
 
 module.exports = palindrome;
+
+//export default doesn't work here ??
